@@ -1,0 +1,87 @@
+.header {
+    width:100%;
+    height:auto;
+    background-image: url("lollis.jpeg");
+    outline-style: double;
+    outline-color: white;
+    outline-width: 5px;
+
+}
+
+.header img {
+    width: 32%;
+    height: 32%;
+    padding-right: 60px;
+}
+
+body {
+    background: rgba(229, 150, 144);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+form {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+#random-button {
+    border-radius: 8px;
+    border: none;
+    color: rgba(229, 150, 144);
+    width: 40%;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 25px 2px 35px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+#mapid {
+    height: 300px;
+}
+
+.filters {
+    margin: 10px 2px;
+}
+
+#display-restaurant {
+    margin: auto;
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+}
+
+#display-restaurant img {
+    display: block;
+    margin-left: auto;
+    width: 25%;
+    height: 25%;
+    padding: 0px 0px 20px 0px;
+}
+
+#display-restaurant ul {
+    list-style-type: none;
+    display: block;
+    margin-right: auto;
+}
+
+h2 {
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+li {
+    text-shadow: 1px 1px black;
+}

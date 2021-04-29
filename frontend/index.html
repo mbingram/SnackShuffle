@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script defer type="text/javascript" src="app.js"></script>
+    <title>Snack Shuffle</title>
+    <link rel="shortcut icon" type="image/png" href="shuffle-logo.png"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<body>
+    <div class="header">
+        <img src="combo-logo.png" alt="combo-logo" id="combo-logo"/>
+    </div>
+
+    <div id="button-div">
+        <button type="button" class="button" id="random-button">Shuffle</button>
+    </div>
+
+    <div id="display-restaurant"></div>
+
+
+    <!-- <div class="filters">
+        <p>Or, choose some filters first.</p>
+        <form action="http://localhost:3000/middleman" method="get">
+            <label>Food Type:</label>
+            <input type="text" name="food-type"/>
+            <label>Cost:</label>
+            <select id="cost-dropdown" name="cost">
+                <option value=$>$</option>
+                <option value=$$>$$</option>
+                <option value=$$$>$$$</option>
+                <option value=$$$$>$$$$</option>
+            </select>
+            <label>Randomize:</label>
+            <input type="submit"/>
+        </form>
+    </div> -->
+
+    <div id="mapid"></div>
+    
+</body>
+</html>
